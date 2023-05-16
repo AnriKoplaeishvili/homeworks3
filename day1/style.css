@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@500&display=swap');
+
+body{
+    padding: 0;
+    margin: 0px;
+    font-family: 'Instrument Sans', sans-serif;
+
+}
+.top-nav{
+    background-color: black;
+    overflow: hidden;
+}
+
+.top-nav a{
+    color: aliceblue;
+    display: block;
+    padding: 14px 16px;
+    float: left;
+    text-decoration: none;
+    text-align: center;
+}
+
+.active{
+    background-color: #009dce;
+}
+
+.top-nav a:hover:not(.active){
+    background-color: #34493d;
+}
+
+.right{
+    float: right !important;
+}
+
+
+body{
+    background: url('code.jpg');
+    background-size: cover;
+}
